@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rock Scissor and Paper Game</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="score-container">
+        <div class="logo">
+            <p>ROCK</p>
+            <p>PAPER</p>
+            <p>SCISSORS</p>
+        </div>
+
+        <div class="compScore">
+            <p> Computer Score</p>
+            <span id="Cscore">0</span>
+        </div>
+
+        <div class="userScore">
+            <p>Your Score</p>
+            <span id="score">0</span>
+        </div>
+    </div>
+
+    <div class="game-container">
+
+        <div class="info">
+            <p class="user">You Picked</p>
+            <p class="pc">PC Picked</p>
+        </div>
+
+
+
+        <div class="option">
+            <div class="sci-con con">
+                <div class="item">
+                    <img src="images/scissor.jpg" alt="">
+                </div>
+            </div>
+             
+            <div class="rock-con con">
+                <div class="item">
+                    <img src="images/rock.jpg" alt="">
+                </div>
+            </div>
+             
+            <div class="paper-con con">
+                <div class="item">
+                    <img src="images/paper.jpg" alt="">
+                </div>
+            </div>
+
+
+            <div class="sci-con computer">
+                <div class="item">
+                    <img src="images/scissor.jpg" alt="">
+                </div>
+            </div>
+             
+            <div class="rock-con computer">
+                <div class="item">
+                    <img src="images/rock.jpg" alt="">
+                </div>
+            </div>
+             
+            <div class="paper-con computer">
+                <div class="item">
+                    <img src="images/paper.jpg" alt="">
+                </div>
+            </div>
+        </div>
+          
+
+
+        <div class="btn">
+            RULES
+        </div>
+
+     <div class="rule-con">
+        <div class="close">X</div>
+        <div class="rules">
+             <div class="heading">Game Rules</div>
+                <div class="li"> <div class="box"></div> Rock beats scissors, scissors beat paper, and paper beats rock.</div>
+                <div class="li"><div class="box"></div>Agree ahead of time whether you’ll count off “rock, paper, scissors, shoot” or just “rock, paper, scissors.”</div>
+                <div class="li"><div class="box"></div>Use rock, paper, scissors to settle minor decisions or simply play to pass the time</div>
+                <div class="li"><div class="box"></div>If both players lay down the same hand, each player lays down another hand</div>
+             
+        </div>
+     </div>
+
+
+     <div class="win-container">
+        <h1 class="winner">YOU WIN</h1>
+        
+        <button class="play">Play Again</button>
+
+     </div>
+
+
+    </div>
+
+
+
+    <script src="index.js"></script>
+</body>
+</html>
